@@ -12,9 +12,14 @@ const Footer = () => {
           className="text-center"
         >
           {/* Logo/Brand */}
-          <h3 className="font-display text-3xl md:text-4xl text-primary-foreground mb-4">
-            Soleil Cafe
-          </h3>
+
+          <div className="flex justify-center mb-6">
+            <img
+              src="/logo.png"
+              alt="Soleil Cafe"
+              className="h-32 w-auto object-contain"
+            />
+          </div>
 
           <p className="font-elegant text-gold text-xl italic mb-8">
             Bab Al Balad

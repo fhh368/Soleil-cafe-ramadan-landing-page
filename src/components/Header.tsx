@@ -8,18 +8,16 @@ const Header = () => {
       transition={{ duration: 0.6 }}
       className="fixed top-0 left-0 right-0 z-50 bg-charcoal/80 backdrop-blur-md border-b border-cream/10"
     >
-      <div className="container mx-auto px-6 py-4">
+      <div className="container mx-auto px-6 py-1">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center gap-3">
-            <div className="w-8 h-8 rounded-full bg-gradient-to-br from-gold to-gold-light flex items-center justify-center">
-              <span className="font-display text-charcoal text-sm font-bold">S</span>
-            </div>
-            <div>
-              <p className="font-display text-cream text-lg leading-none">Soleil</p>
-              <p className="font-body text-cream/60 text-xs tracking-widest uppercase">Cafe</p>
-            </div>
-          </div>
+          <a href="#" className="block">
+            <img
+              src="/logo.png"
+              alt="Soleil Cafe"
+              className="h-20 w-auto object-contain"
+            />
+          </a>
 
           {/* Navigation */}
           <nav className="hidden md:flex items-center gap-8">
