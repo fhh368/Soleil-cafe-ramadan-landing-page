@@ -34,7 +34,7 @@ const Header = () => {
               Suhour
             </a>
             <a
-              href="#"
+              href="#experiences"
               className="font-body text-sm bg-gold/90 hover:bg-gold text-charcoal px-5 py-2 rounded-sm transition-colors duration-300 tracking-wider uppercase"
             >
               Reserve

@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import rooftopImage from "@/assets/suhour-rooftop-new.jpg";
+import rooftopImage from "@/assets/suhour-rooftop-updated.jpg";
 
 const SuhourSection = () => {
   return (

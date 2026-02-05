@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import heritageImage from "@/assets/iftar-heritage.jpg";
-import rooftopImage from "@/assets/suhour-rooftop-new.jpg";
+import rooftopImage from "@/assets/suhour-rooftop-updated.jpg";
 
 interface ExperienceCardProps {
   title: string;
