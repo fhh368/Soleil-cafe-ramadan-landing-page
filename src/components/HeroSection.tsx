@@ -82,7 +82,7 @@ const HeroSection = () => {
             transition={{ duration: 0.6, delay: 0.7 }}
           >
             <Button variant="hero" size="xl" className="animate-glow" asChild>
-              <a href="#experiences">Reserve Now</a>
+              <a href="https://www.sevenrooms.com/experiences/soleilalshatierwjed/iftar-5560305610440704" target="_blank" rel="noopener noreferrer">Reserve Now</a>
             </Button>
           </motion.div>
 
