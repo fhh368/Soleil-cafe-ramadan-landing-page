@@ -65,7 +65,7 @@ const IftarSection = () => {
 
             {/* Title */}
             <h2 className="font-display text-3xl md:text-4xl lg:text-5xl text-foreground mb-6 leading-tight">
-              Iftar at Bab Al Balad
+              Iftar Bab Al Balad
             </h2>
 
             {/* Decorative Line */}

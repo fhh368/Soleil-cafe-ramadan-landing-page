@@ -53,7 +53,7 @@ const Footer = () => {
                 Ramadan Hours
               </p>
               <p className="font-body text-primary-foreground text-sm">
-                Iftar 6:30 PM • Suhour 9:30 PM
+                Iftar 5:30 PM • Suhour 10:00 PM
               </p>
             </div>
           </div>

@@ -72,7 +72,7 @@ const ExperienceCard = ({ title, subtitle, description, image, link, delay = 0 }
 const ExperienceCards = () => {
   const experiences = [
     {
-      title: "Iftar (Bab Al Balad)",
+      title: "Iftar Bab Al Balad",
       subtitle: "Soleil Lounge",
       description: "A refined Iftar buffet of authentic Arabic favorites in a heritage-inspired setting.",
       image: heritageImage,

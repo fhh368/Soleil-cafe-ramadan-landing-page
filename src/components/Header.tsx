@@ -12,8 +12,8 @@ import {
 
 const Header = () => {
   const navLinks = [
-    { name: "Iftar", href: "#iftar" },
-    { name: "Suhour", href: "#suhour" },
+    { name: "Iftar Bab Al Balad", href: "#iftar" },
+    { name: "Suhour Bab Al Balad", href: "#suhour" },
   ];
 
   return (
