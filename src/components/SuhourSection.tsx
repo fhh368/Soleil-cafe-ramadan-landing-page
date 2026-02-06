@@ -22,14 +22,9 @@ const SuhourSection = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
-            {/* Label */}
-            <p className="font-body text-gold text-sm tracking-[0.25em] uppercase mb-4">
-              Soleil Rooftop
-            </p>
-
             {/* Title */}
             <h2 className="font-display text-3xl md:text-4xl lg:text-5xl text-cream mb-4 leading-tight">
-              Suhour at Soleil Rooftop
+              Suhour Bab Al Balad
             </h2>
 
             {/* Subtitle */}

@@ -31,11 +31,13 @@ const ExperienceCard = ({ title, subtitle, description, image, link, delay = 0 }
         <div className="absolute inset-0 bg-gradient-to-t from-charcoal/80 via-charcoal/20 to-transparent" />
 
         {/* Subtitle overlay */}
-        <div className="absolute bottom-4 left-6">
-          <p className="font-body text-gold text-xs tracking-[0.2em] uppercase">
-            {subtitle}
-          </p>
-        </div>
+        {subtitle && (
+          <div className="absolute bottom-4 left-6">
+            <p className="font-body text-gold text-xs tracking-[0.2em] uppercase">
+              {subtitle}
+            </p>
+          </div>
+        )}
       </div>
 
       {/* Content */}
@@ -77,8 +79,8 @@ const ExperienceCards = () => {
       link: "https://www.sevenrooms.com/experiences/soleilalshatierwjed/iftar-5560305610440704"
     },
     {
-      title: "Suhour (Soleil Rooftop)",
-      subtitle: "Soleil Rooftop",
+      title: "Suhour Bab Al Balad",
+      subtitle: "",
       description: "An elevated rooftop Suhour set menu with live ambiance.",
       image: rooftopImage,
       link: "https://www.sevenrooms.com/experiences/soleilrooftop/sohor-at-soleil-5251919039741952"
