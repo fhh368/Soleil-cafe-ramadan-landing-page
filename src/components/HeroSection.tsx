@@ -61,7 +61,7 @@ const HeroSection = () => {
             transition={{ duration: 0.6, delay: 0.5 }}
             className="font-elegant text-cream/90 text-xl md:text-2xl italic mb-4"
           >
-            Iftar at Soleil Lounge • Suhour at Soleil Rooftop
+            Iftar & Suhour
           </motion.p>
 
           {/* Description */}
